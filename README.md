@@ -1,8 +1,17 @@
 # ⚡️ nat ⚡️
 
-![banner](natbanner.png)
+![banner](assets/natbanner.png)
 
-![demo](natdemo.png)
+![demo](assets/natdemo.png)
+
+
+[What is nat?](https://github.com/willdoescode/nat#what-is-nat)
+
+[Highlights](https://github.com/willdoescode/nat#highlights)
+
+[Installation](https://github.com/willdoescode/nat#installation)
+
+[Understanding permissions output](https://github.com/willdoescode/nat#understanding-permissions-output)
 
 ## What is nat?
 
@@ -25,25 +34,24 @@ Nats features include
 ## Highlights
 
 - A rather large german tech blog wrote an [article](https://www.heise.de/news/In-Rust-geschrieben-und-uebersichtlicher-nat-will-ls-ersetzen-4937429.html) about nat
-
 ## Usage
 
-### Installation macOs
+### Installation 
 
-install the latest release from
-https://github.com/willdoescode/nat/releases/
-
-then add the nat file to your path
-/usr/local/bin/
-
-to alias ls to nat
-add 
 ```bash
-alias ls='nat'
-``` 
-in your zshrc at ~/.zshrc 
+cargo install natls
+```
 
-### Installation Linux
+### Alternative (linux)
+
+```bash
+sudo snap install natls
+```
+
+### Manual installation
+
+#### Linux
+
 ```bash
 apt-get install rustc cargo
 cd /tmp
@@ -69,28 +77,29 @@ and add this line to your `$HOME/.bashrc`
 export PATH=$PATH:$HOME/.cargo/bin
 ```
 
-### On Arch Linux
+### Updating nat
 ```bash
-yay -S nat-git
+cargo install natls
 ```
+if there is a new version available cargo will install it
 
-#### Using nat with ls
+### Using nat with ls
 
 in zshrc or bashrc
 ```bash
-alias ls='nat'
+alias ls='natls'
 ```
 
 ### Running
 
 ```bash
-nat <dir>
+natls <dir>
 ```
 
 #### Searching for file
 
 ```bash
-nat <dir (leave empty if in wanted dir)> -f <file>
+natls <file>
 ```
 
 ### To edit the code
@@ -103,7 +112,7 @@ cd nat
 ## Uninstall steps
 
 ```bash
-rm /usr/local/bin/nat
+cargo uninstall natls
 ```
 
 ## Understanding permissions output
@@ -136,3 +145,7 @@ If all groups have read write and execute the output would look like
 ```
 rwxrwxrwx
 ```
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/willdoescode/nat.svg)](https://starchart.cc/willdoescode/nat)
