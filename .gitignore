@@ -3,3 +3,5 @@
 /.idea
 /linux
 /macOs
+*.snap
+notes.txt

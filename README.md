@@ -1,5 +1,7 @@
 # ⚡️ nat ⚡️
 
+# Massive nat update!
+
 ![banner](assets/natbanner.png)
 
 ![demo](assets/natdemo.png)
@@ -29,6 +31,11 @@ Nats features include
 
 
 ## Join the nat [discord server](https://discord.gg/2Fn8veP)
+## Beta test the natls proof of concept re-write
+
+```bash
+cargo install nat-poc
+```
 
 
 ## Highlights
@@ -41,12 +48,28 @@ Nats features include
 ```bash
 cargo install natls
 ```
+## Homebrew
+
+```bash
+brew tap willdoescode/homebrew-natls
+
+brew install natls
+```
 
 ### Alternative (linux)
+
+[![natls](https://snapcraft.io/natls/badge.svg)](https://snapcraft.io/natls)
+[![natls](https://snapcraft.io/natls/trending.svg?name=0)](https://snapcraft.io/natls)
 
 ```bash
 sudo snap install natls
 ```
+
+### To update natls with snap
+
+```bash
+sudo snap refresh natls
+``` 
 
 ### Manual installation
 
