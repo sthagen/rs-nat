@@ -1,3 +1,5 @@
+[![dependency status](https://deps.rs/crate/natls/2.1.9/status.svg)](https://deps.rs/crate/natls/2.1.9) [![natls](https://snapcraft.io/natls/badge.svg)](https://snapcraft.io/natls)
+
 # ⚡️ nat ⚡️
 
 # Massive nat update!
@@ -58,7 +60,6 @@ brew install natls
 
 ### Alternative (linux)
 
-[![natls](https://snapcraft.io/natls/badge.svg)](https://snapcraft.io/natls)
 [![natls](https://snapcraft.io/natls/trending.svg?name=0)](https://snapcraft.io/natls)
 
 ```bash
