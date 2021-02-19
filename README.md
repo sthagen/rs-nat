@@ -53,9 +53,7 @@ cargo install natls
 ## Homebrew
 
 ```bash
-brew tap willdoescode/homebrew-natls
-
-brew install natls
+brew install willdoescode/natls/natls
 ```
 
 ### Alternative (linux)
@@ -71,7 +69,12 @@ sudo snap install natls
 ```bash
 sudo snap refresh natls
 ``` 
-
+#### Another alternative (arch linux)
+[nat](https://aur.archlinux.org/packages/nat/)
+```bash
+yay -S nat
+```
+(or your AUR helper of choice)
 ### Manual installation
 
 #### Linux
